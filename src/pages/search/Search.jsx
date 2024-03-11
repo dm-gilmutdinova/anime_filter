@@ -6,15 +6,12 @@ import { characterlist } from '../../helper/characterlist';
 import './search-module.css';
 
 export const Search = () => {
-  console.log(characterlist);
   const [character, setCharacter] = useState('');
   const [data, setData] = useState(characterlist);
 
   const handleChange = (e) => {
     setCharacter(e.target.value);
-    console.log('Updated character:', e.target.value);
     filterAnime(e);
-    console.log('2', filterAnime(e));
   };
 
   const filterAnime = (e) => {
