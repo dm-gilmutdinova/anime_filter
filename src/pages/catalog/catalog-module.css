@@ -1,0 +1,152 @@
+.catalog {
+  background: #141123;
+}
+
+.catalog-list {
+  display: flex;
+  gap: 30px;
+}
+
+.catalog-cat {
+  padding: 10px 15px;
+}
+
+.catalog-cat__title {
+  color: #49a366;
+  font-family: 'Playfair Display';
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.catalog-cat__list-title {
+  display: flex;
+  font-family: 'Roboto Mono', monospace;
+  justify-content: space-between;
+  border-bottom: 3px solid rgba(73, 163, 102, 0.42);
+  padding: 13px;
+  gap: 120px;
+}
+
+.catalog-cat__list-title p {
+  color: #49a366;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.catalog-cat__list-title button {
+  width: 20px;
+  background-image: url('./../../../public/img/btn-view.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.catalog-cat__list-list {
+  margin-top: 10px;
+}
+
+.catalog-cat__list-list li {
+  padding: 6px 15px;
+}
+
+.rotate-btn {
+  animation: elrotateback 0.4s forwards;
+  transform: rotate(360deg);
+}
+
+@keyframes elrotateback {
+  0% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.active-btn {
+  animation: elrotate 0.4s forwards;
+  transform: rotate(0);
+}
+
+@keyframes elrotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(180deg);
+  }
+}
+
+.cyberpunk-checkbox {
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #49a366;
+  border-radius: 5px;
+  background-color: transparent;
+  display: inline-block;
+  position: relative;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.cyberpunk-checkbox:before {
+  content: '';
+  background-color: #49a366;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.cyberpunk-checkbox:checked:before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.cyberpunk-checkbox-label {
+  cursor: pointer;
+  user-select: none;
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.catalog-anime__card {
+  margin-bottom: 30px;
+}
+
+.catalog-anime__btn {
+  display: block;
+  width: 100%;
+  margin-bottom: 30px;
+  padding: 10px 0px;
+  border-radius: 15px;
+  background: #a4499e;
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  transition: all ease 0.3s;
+}
+
+.hidden {
+  display: none;
+}
+
+.catalog-anime__btn:hover {
+  background: #e87edf;
+  box-shadow: 9px 7px 35px 0px #c78ac2;
+}
+
+.catalog-cat__list-btn {
+  font-size: 20px;
+  padding: 5px 0;
+  margin-top: 30px;
+}
