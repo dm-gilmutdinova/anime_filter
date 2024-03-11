@@ -1,0 +1,67 @@
+.fullanime-section {
+  background: #1d1933;
+  padding: 30px;
+}
+
+.fullanime {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullanime-about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fullanime-about__img {
+  width: 1110px;
+  height: 400px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  background: #1d1933;
+}
+
+.fullanime-about__img-main {
+  width: 100%;
+  filter: blur(3px) brightness(40%);
+}
+
+.fullanime-about__title {
+  position: absolute;
+  color: #eec1eb;
+  font-family: 'Playfair Display';
+  font-size: 64px;
+  font-weight: 900;
+  bottom: 30px;
+  right: 60px;
+}
+
+.fullanime-yato {
+  position: absolute;
+  height: 452px;
+  bottom: 0px;
+  left: 133px;
+}
+
+.fullanime-button {
+  display: flex;
+  margin-top: 30px;
+  border-bottom: 2px solid #a4499e;
+}
+
+.fullanime-btn__about,
+.fullanime-btn__person {
+  color: #eec1eb;
+  font-family: 'Roboto Mono';
+  font-size: 24px;
+  font-weight: 500;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+
+.fullanime-btn__about:hover,
+.fullanime-btn__person:hover {
+  border-bottom: 2px solid #a4499e;
+}

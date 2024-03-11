@@ -1,0 +1,25 @@
+.fullanime-menu__character-button {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+}
+
+.fullanime-menu__character-btn {
+  border-radius: 15px;
+  background: #a4499e;
+  color: white;
+  padding: 10px;
+  width: 150px;
+  font-size: 20px;
+  font-weight: 500;
+  transition: all ease 0.3s;
+}
+
+.fullanime-menu__character-btn:hover {
+  background: #e87edf;
+  box-shadow: 9px 7px 35px 0px #c78ac2;
+}
+
+.btn-active {
+  background: #e87edf;
+}
