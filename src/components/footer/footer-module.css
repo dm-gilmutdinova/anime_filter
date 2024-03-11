@@ -1,0 +1,32 @@
+.footer-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.footer-card__logo {
+  font-family: 'Italiana', sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.footer-card__logo a {
+  color: #97dfae;
+}
+
+.footer-card__nav {
+  display: flex;
+  gap: 30px;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.footer-card__nav li a {
+  color: #97dfae;
+}
+
+.footer-card__soc {
+  display: flex;
+  gap: 30px;
+}

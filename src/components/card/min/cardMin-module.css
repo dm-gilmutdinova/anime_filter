@@ -1,0 +1,38 @@
+.cardmain {
+  border-radius: 20px;
+  width: 255px;
+  height: 185px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  color: #d180cb;
+  cursor: pointer;
+  transition: all ease 0.3s;
+  overflow: hidden;
+  position: relative;
+  background-color: white;
+}
+
+.cardmain:hover {
+  color: #d180cb;
+  text-shadow: 0px 0px 6.2px #d180cb;
+  transform: scale(1.1);
+}
+
+.cardmain img {
+  box-shadow: 0px 0px 73px 0px rgba(120, 27, 96, 0.87) inset;
+}
+
+.cardmain-img {
+  height: 100%;
+}
+
+.cardmain-title {
+  position: absolute;
+  background: rgba(69, 35, 67, 0.797);
+  padding: 5px;
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,106 @@
+.main {
+  background-image: url(./../../../public/img/tumblr_1280f48a69445deb6f6390a9b9fc9718_73ef671f_540.gif);
+  background-repeat: no-repeat;
+  background-size: 1851px;
+  background-position: -322px -203px;
+  color: #49a366;
+  height: 700px;
+  display: flex;
+  align-items: center;
+}
+
+.main-header {
+  width: 411px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background: rgba(34, 9, 32, 0.54);
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.main-subtitle {
+  font-family: 'Roboto Mono', monospace;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-shadow: -5px -1px 14.8px rgba(54, 163, 89, 0.55);
+  -webkit-text-stroke-width: 1;
+  -webkit-text-stroke-color: rgba(38, 103, 59, 0.62);
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.main-btn {
+  border-radius: 15px;
+  background: #a4499e;
+  padding: 14px 23px;
+  font-size: 24px;
+  font-weight: 500;
+  transition: all ease 0.3s;
+}
+
+.main-btn a {
+  font-family: 'Roboto Mono', monospace;
+  color: #fff;
+}
+
+.main-btn:hover {
+  background: #e87edf;
+  box-shadow: 9px 7px 35px 0px #c78ac2;
+}
+
+.lastanime {
+  padding: 30px 0;
+  background: #141123;
+  display: flex;
+}
+
+.lastanime-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.lastanime-title {
+  color: #65a349;
+  font-family: 'Playfair Display';
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.lastanime-card {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.lastanime-btn {
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  align-items: center;
+  border-radius: 15px;
+  background: #a4499e;
+  padding: 10px 20px;
+  gap: 40px;
+  transition: all ease 0.3s;
+}
+
+.lastanime-btn:hover {
+  background: #e87edf;
+  box-shadow: 9px 7px 35px 0px #c78ac2;
+}
+
+.lastanime-btn__title {
+  color: #fff;
+  font-size: 27px;
+  font-weight: 300;
+}
+
+.footer {
+  background: #49426b;
+}

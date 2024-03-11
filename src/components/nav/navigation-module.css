@@ -1,0 +1,19 @@
+nav {
+  font-family: 'Italiana', sans-serif;
+  background: #141123;
+  border-bottom: 2px solid rgba(73, 163, 102, 0.42);
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+.nav-logo {
+  color: #49a366;
+  font-size: 40px;
+}
+
+.nav-search {
+  position: absolute;
+  right: 500px;
+}
